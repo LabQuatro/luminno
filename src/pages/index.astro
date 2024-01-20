@@ -7,12 +7,11 @@ import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, services } = homepage.data;
+const { banner, project_management } = homepage.data;
 ---
 
 <Base>
-  <!-- banner -->
   <Banner banner={banner} />
-  <!-- call to action -->
+  <ProjecManagement features={project_management} />
   <Cta />
 </Base>

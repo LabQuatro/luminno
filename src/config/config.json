@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
+    "title": "Luminno",
     "base_url": "https://pinwheel-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -8,7 +8,7 @@
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "Luminno"
   },
 
   "settings": {
@@ -18,10 +18,10 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Fale Conosco",
+    "description": "Envie sua dúvida, reclamação ou solicite um orçamento!",
     "button": {
-      "label": "Download The Theme",
+      "label": "Entre em contato",
       "link": "https://themefisher.com/astro-themes/pinwheel-astro"
     }
   },
@@ -33,12 +33,12 @@
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "footer_description": "Elétrica e iluminação é com a gente!",
+    "email": "contato@luminno.com.br",
+    "location": "Rua Jardelina de Almeida Lopes, 1585 - Mogi das Cruzes, 08730-660, BR",
+    "phone": "(11) 3374-4288",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "© 2022 LUMINNO - Soluções em Elétrica"
   },
 
   "metadata": {
