@@ -9,8 +9,6 @@ banner:
     link: "https://themefisher.com/astro-themes/pinwheel-astro"
     enable: true
 
-
-
 project_management:
   title: Nossos Serviços
 
@@ -33,4 +31,15 @@ project_management:
         content: Laudo realizados com aparelhos calibrados e com certificado, testes e comissionamento de equipamentos instalados, etc.
         tagline: Laudos técnicos com ART e parecer técnico
         icon: file #icon package react-file-icon [https://feathericons.com/]
+
+about:
+  title: Um pouco sobre nós
+  description: Nascida em 2018, a LUMINNO foi criada por um apaixonado por elétrica que percebeu a necessidade neste ramo, principalmente em construções. Então ele decidiu juntar o útil ao agradável, foi aí que nasceu uma dedicada a atender bem os clientes prestando um excelente serviço. <br/> Prazer, este sou eu. <br/> Thiago Sardinha da Cunha
+  image:
+    src: "/images/about/gallery-img-1.png"
+    alt: "Foto de Thiago da Cunha"
+  button:
+    label: Saiba Mais
+    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    enable: true
 ---

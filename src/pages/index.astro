@@ -1,17 +1,19 @@
 ---
 import Base from "@layouts/Base.astro";
 import Banner from "@layouts/components/Banner.astro";
+import Call from "@layouts/components/Call.astro";
 import ProjecManagement from "@components/features/ProjecManagement.astro";
 
 import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 
 const homepage = await getEntryBySlug("homepage", "index");
-const { banner, project_management } = homepage.data;
+const { banner, project_management, about } = homepage.data;
 ---
 
 <Base>
   <Banner banner={banner} />
   <ProjecManagement features={project_management} />
+  <Call call={about} />
   <Cta />
 </Base>
